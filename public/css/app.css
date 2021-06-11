@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Intro Regular';
+    src: local('Intro Regular'), url('/fonts/Intro_Regular.OTF');
+}
+
+body {
+    font-family: 'Intro Regular';
+    background-color: #151515;
+}
+
+.navbar-toggler {
+    color: rgba(255, 239, 0, 0.2);
+    border-color: rgba(255, 239, 0, 0.5);
+}
+
+.navbar-toggler:focus {
+    color: rgba(255, 239, 0, 0);
+}
+
+.navbar-toggler:focus:active {
+    color: rgba(255, 239, 0, 0.2);
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 239, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-nav .nav-link {
+    color: #ffef00;
+}
+
+.navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+    color: #ffc800;
+}
+
+.input-signup {
+    max-width: 305px;
+}
+
+.input-signup:focus {
+    border-color: #48494e;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(68, 73, 78, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(56, 62, 65, 0.6);
+}
+
+.btn-signup {
+    color: #ffef00;
+    border-color: #ffef00;
+}
+
+.btn-signup:hover {
+    color: #151515;
+    background-color: #ffef00;
+    border-color: #ffef00;
+}
+
+.btn-signup:focus {
+    box-shadow: 0 0 0 0.25rem rgba(255, 239, 0, 0);
+}
+
+.btn-signup:focus:active {
+    box-shadow: 0 0 0 0.25rem rgba(255, 239, 0, 0.2);
+}
+
+.logo-soundbro {
+    max-width: 20em;
+}
+
+.dropdown-menu {
+    background-color: #1d1d1d;
+}
+
+.dropdown-item {
+    color: #ffef00;
+}
+
+.dropdown-item:hover {
+    background-color: #ffef00;
+    color: #1d1d1d;
+}
+
+@media only screen and (min-device-width: 992px) {
+    .dropdown:hover > .dropdown-menu {
+        display: block;
+        margin-top: 0;
+    }
+}
+
+
+
+
+
+
