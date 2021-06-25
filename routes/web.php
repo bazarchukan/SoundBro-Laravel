@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\SignupController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,3 +15,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {return view('home');})->name('home');
+
+Route::post('/signup', [SignupController::class, 'signup'])->name('signup');

@@ -7,7 +7,7 @@
                 <img class="img-fluid" src="/images/home-3.jpg" alt="">
             </div>
             <div class="col-lg-4 col-md-5">
-                @include('includes/signup')
+                @include('includes.signup')
             </div>
         </div>
     </div>

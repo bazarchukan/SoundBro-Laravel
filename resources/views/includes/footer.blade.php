@@ -1,10 +1,7 @@
     <footer>
         <div class="container">
             <div class="row text-white text-center py-md-2 py-5">
-                <div class="col-12 fs-6">2021 SoundBro</div>
-
                 <div class="col-12 fs-6">Омск, пр-т Маркса, 18</div>
-
                 <div class="col-12">
                     <a class="footer-link text-white text-decoration-none" href="https://www.instagram.com/soundbroschool/">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
@@ -17,8 +14,6 @@
                         </svg>
                     </a>
                 </div>
-
             </div>
-
         </div>
     </footer>
